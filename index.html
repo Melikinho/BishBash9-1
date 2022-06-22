@@ -12,10 +12,37 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
+    <div class="jumbotron jumbotron-fluid text-center">
             <h1>Bish Bosh Application</h1>
+      </div>
+      <div class="container">
+        <div class="row">
+        <div class="col-sm-4">
+            <h3>Vilken siffra är Bish?(tidigare 3)</h3>
+            <form action="/action_page.php">
+                <label for="Bish">Vilken siffra är bish? </label>
+                <input type="Bish" class="form-control" placeholder="Siffra för Bosh: "id="bish">
+                <button type="Knapptryck" class="btn btn-primary" id="buttonBish">Tryck här</button>
+            </form>
         </div>
+        <div class="col-sm-4">
+            <h3>Vilken siffra är Bish?(tidigare 4)</h3>
+            <form action="/action_page.php">
+                <label for="Bosh">Vilken siffra är bish? </label>
+                <input type="Bosh" class="form-control" placeholder="Siffra för Bosh: "id="bosh">
+                <button type="KnapptryckBosh" class="btn btn-primary" id="buttonBosh">Tryck här</button>
+            </form>
+        </div>
+        <div class="col-sm-4">
+            <h3>Hur lång ska loopen gå? (tidigare än 100)</h3>
+            <form action="/action_page.php">
+                <label for="loop">Hur lång? (tidigare 100) </label>
+                <input type="loop" class="form-control" placeholder="Siffra för Loop: "id="loop">
+                <button type="KnapptryckLoop" class="btn btn-primary" id="buttonLoop">Tryck här</button>
+            </form>
+        </div>
+
+      </div>
       </div>
 </body>
 </html>
